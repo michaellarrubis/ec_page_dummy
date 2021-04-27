@@ -7,7 +7,7 @@ function App() {
 
   const handleLoadDetails = async () => {
     console.log(`Request: ${fields}`)
-    const {data} = await axios.post(fields.endpoint, { token: fields.token, projectId: fields.projectId })
+    const {data} = await axios.post(fields.endpoint, { token: fields.token, projectId: fields.projectId }, {withCredentials: true})
     
     console.log(`Response: ${data}`)
   }
