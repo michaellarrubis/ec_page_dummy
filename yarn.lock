@@ -3257,6 +3257,11 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
+cohere-js@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/cohere-js/-/cohere-js-1.0.12.tgz#5721076eb6a3d6158f230df2f5e373c8c6e6f602"
+  integrity sha512-lBJJ1tAWfRPI5rRwBYKojM7iOGw/VZtxrIUx1orto5z6c5u3uPSwtgVVrH6GMI6O5/lA7BM1ccBhI+NtGU8g0g==
+
 collect-v8-coverage@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/collect-v8-coverage/-/collect-v8-coverage-1.0.1.tgz#cc2c8e94fc18bbdffe64d6534570c8a673b27f59"
